@@ -4,6 +4,16 @@ This repository contains a Proof of Concept (POC) for running Cucumber tests in 
 The project demonstrates how to set up and configure your test framework to execute Cucumber scenarios in parallel with
 TestNG.
 
+Main Technologies
+* Cucumber
+* Maven
+* Java
+* Lombok
+* Selenide
+* Selenium WD
+* Slf4j
+* TestNG
+
 Prerequisites
 Java 8 or Higher
 Maven 3.x
