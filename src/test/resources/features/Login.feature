@@ -39,3 +39,11 @@ Feature: Login Functionality for Hudl
     Examples:
       | username                  | password        | error_message                                                                                                        |
       | testnotexist@nonexist.com | invalidPassword | That email address doesn't exist in Hudl. Check with your coach to ensure they have the right email address for you. |
+
+  @test5
+  Scenario: User can Logout of their Hudl account successfully
+    Given User enters a valid username and password
+    When User clicks on the login button
+    And User should be logged in successfully
+    And User clicks on the user navigation bar
+    Then User can logout successfully

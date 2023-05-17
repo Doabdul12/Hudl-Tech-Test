@@ -22,7 +22,6 @@ public class Common {
 
     public static final Duration DEFAULT_TIMEOUT = Duration.ofSeconds(60L);
 
-
     public SelenideElement waitForElementToBeVisible(By locator) {
         return waitForElementToBeVisible(locator, DEFAULT_TIMEOUT);
     }
