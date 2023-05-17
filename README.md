@@ -19,9 +19,9 @@ Prerequisites
 * Maven 3.x - make sure you download maven on your machine (brew install maven via terminal)
 * IDE (preferably IntelliJ)
 
-1. Step 1. clone Git Repo onto machine:
+1. Step 1. clone Git Repo onto machine: https://github.com/Doabdul12/Hudl-Tech-Test
 2. Step 2. run mvn clean install via terminal
-3. Step 3. to run entire project we can use mvn clean test in terminal  
+3. Step 3. to run entire project we can use mvn test in terminal  
 4. Step 4. we can also use TestNG config to run all tests ![](/Users/dapo.abdul/Desktop/Screenshot 2023-05-16 at 16.01.11.png)
    -ea
    -Dtestng.dtd.http=true
