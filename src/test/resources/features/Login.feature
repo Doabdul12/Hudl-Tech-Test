@@ -21,6 +21,7 @@ Feature: Login Functionality for Hudl
       | invalid@email.com    | invalidPassword | We didn't recognize that email and/or password.Need help? |
       | dappznasir@gmail.com | invalidPassword | We didn't recognize that email and/or password.Need help? |
       | invalid@email.com    | Inno@123        | We didn't recognize that email and/or password.Need help? |
+    #I would store error messages in an enum file with more time
 
   @test3
   Scenario: User can Navigate to the to the Login Help page
