@@ -19,12 +19,12 @@ import javax.annotation.PostConstruct;
 @Import({PropertiesConfig.class})
 public class SpringIntegrationTestConfig {
 
-    @Value("${base_website_url}")
-    private String baseWebsiteUrl;
+    @Value("${mio_sign_in_base_website_url}")
+    private String mioBaseWebsiteUrl;
 
     @PostConstruct
     public void init() {
-        Configuration.baseUrl = baseWebsiteUrl;
+        Configuration.baseUrl = mioBaseWebsiteUrl;
     }
 
     @Bean
